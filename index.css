@@ -44,7 +44,6 @@ li {
 }
 
 .underline {
-	border-bottom: 1px solid #000;
 	margin: 3px 0;
 	padding-bottom: 3px;
 }
@@ -83,6 +82,26 @@ li {
 	margin: 0 5px 0 2px;
 }
 
+.no-style {
+	border:none;
+	border-bottom: 1px solid #000;
+}
+
+.receipt {
+	width: 110px;
+}
 .submit {
 	margin: 5px;
+}
+
+.input-to {
+	width: 171px;
+}
+
+.input-received {
+	width: 401px;
+}
+
+.input-rental {
+	width: 379px;
 }
