@@ -25,47 +25,86 @@
         <!-- Add your site or application content here -->
         <div class="container">
             <h1 class="title">Rent Receipt</h1>
-            <div class="form-top">
+            <form action="" method="get">
+                <div class="form-top">
                 <div>
-                    <span class="long underline">Date</span>
-                    <span class="short underline clear">Receipt No</span>
+                    <span class="long underline">
+                        <label>Date</label>
+                        <input type="text">
+                    </span>
+                    <span class="short underline clear">
+                        <label>Receipt No</label>
+                        <input class="input-short" type="text">
+                    </span>
                 </div>
                 <div>
-                    <span class="long underline">From</span>
-                    <span class="short underline clear">To</span>
+                    <span class="long underline">
+                        <label>From</label>
+                        <input type="text">
+                    </span>
+                    <span class="short underline clear">
+                        <label>To</label>
+                        <input class="input-medium" type="text">
+                    </span>
                 </div>
-                <div class="underline">Rental Property</div>
-                <div class="margin-bottom">Received By</div>
-            </div>
+                <div class="underline">
+                    <label>Rental Property</label>
+                    <input type="text">
+                    </div>
+                <div class="margin-bottom">
+                    <label>Received By</label>
+                    <input type="text">
+                </div>
+                </div>
            <table class="form-bottom">
             <tr>
-                <td class="align-bottom align-right" rowspan="6">Stamp</td>
-                <td class="align-right">Amount to be received</td>
-                <td>$</td>
+                <td width="100px" class="align-bottom align-right" rowspan="6">Stamp</td>
+                <td width="200px"class="align-right">Amount to be received</td>
+                <td>
+                    <label>$</label>
+                    <input class="input-medium" type="text">
+                </td>
             </tr>
             <tr>
                 <td class="align-right">Amount received</td>
-                <td>$</td>
+                <td>
+                    <label>$</label>
+                    <input class="input-medium" type="text">
+                </td>
             </tr>
             <tr>
                 <td class="align-right">Balance Due</td>
-                <td>$</td>
+                <td>     
+                    <label>$</label>
+                    <input class="input-medium" type="text">
+                </td>
             </tr>
             <tr>
                 <td class="align-right align-bottom" rowspan="3">Paid by</td>
                 <td>
                     <ul>
-                        <li><input type="checkbox" class="checkbox">Cash</li>
-                        <li><input type="checkbox" class="checkbox">Check</li>
-                        <li><input type="checkbox" class="checkbox">Money Order</li>
-                        <li><input type="checkbox" class="checkbox">Other</li>
+                        <li>
+                            <input type="checkbox" value="cash">
+                            <label>Cash</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" value="check">
+                            <label>Check</label>
+                        </li>
+                        <li><input type="checkbox" value="money-order">
+                            <label>Money Order</label>
+                        </li>
+                        <li><input type="checkbox" value="other">
+                            <label>Other</label>
+                        </li>
                     </ul>
                 </td>
             </tr>
         </table>
-
-
-        <div>
+        <div class="align-right form-bottom">
+            <input class="submit" type="submit" value="submit">
+        </div>
+        </form>
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

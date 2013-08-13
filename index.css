@@ -25,6 +25,14 @@ li {
 	list-style-type: none;
 }
 
+.input-short {
+	width: 100px;
+}
+
+.input-medium {
+	width: 140px;
+}
+
 .form-bottom {
 	margin: 0 auto;
 	width: 500px;
@@ -69,7 +77,12 @@ li {
 
 .checkbox {
 	-webkit-appearance: none;
+	background: #fff;
 	border: 1px solid #000;
 	padding: 5px;
 	margin: 0 5px 0 2px;
+}
+
+.submit {
+	margin: 5px;
 }
